@@ -1,2 +1,24 @@
-基于Vue的一个博客项目
-用于记录我所学习的内容
+<!--
+ * @Descripttion: 
+ * @Author: zhaodongfeng
+ * @Date: 2021-08-27 17:54:21
+ * @LastEditors: zhaodongfeng
+ * @LastEditTime: 2021-09-03 14:11:24
+-->
+## 博客内容记录
+
+    一、初始化版本阶段
+
+        前端技术栈: vue + elementUI + node + express + mongodb
+        
+        启动服务
+            ```
+                npm run satrt  // 运行node服务 连接数据库 
+                npm run serve  // 运行vue项目
+            ```
+
+
+        功能 :
+            新增雪花特效  //  public/js/cfs.Snow.js 文件实现 index.html 引入调用下即可
+            鼠标点击有爱心动画效果 //   index.html js里面复制即可使用
+        
