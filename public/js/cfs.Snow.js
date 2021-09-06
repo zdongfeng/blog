@@ -1,14 +1,9 @@
-/* eslint-disable no-redeclare */
 /*
  * @Descripttion: 
  * @Author: zhaodongfeng
  * @Date: 2021-09-03 13:44:42
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2021-09-03 13:49:18
- */
-/*
- *CFS.Snow.js - snow.coolfishstudio.com
- *Copyright (c) 20150225 v0.0.1 yuchunyu QQ:461836324 
+ * @LastEditTime: 2021-09-06 11:04:10
  */
 var snow = {
     info: {
@@ -80,3 +75,4 @@ var snow = {
         }, 15)
     }
 };
+window.$snow = snow

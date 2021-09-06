@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2021-08-27 22:04:01
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2021-09-03 11:38:34
+ * @LastEditTime: 2021-09-06 10:51:26
 -->
 <template>
   <div>
@@ -42,6 +42,11 @@ export default {
   methods: {
     handleSelect(key, keyPath) {
       console.log(key, keyPath);
+      if(key === '3'){
+        this.$router.push('/article')
+      }else{
+        this.$router.push('/home')
+      }
     }
   }
 }

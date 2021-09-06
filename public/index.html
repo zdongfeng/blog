@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2021-08-27 21:34:14
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2021-09-03 14:08:09
+ * @LastEditTime: 2021-09-06 11:05:29
 -->
 <!DOCTYPE html>
 <html lang="">
@@ -24,7 +24,7 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
-<script type="text/javascript" src="./js//cfs.Snow.min.js"></script>
+<script type="text/javascript" src="./js//cfs.Snow.js"></script>
 <script>
 function clickBiuBiuBiu(){
   var click_cnt = 0;
@@ -97,9 +97,10 @@ function clickBiuBiuBiu(){
         $body.appendChild($elem);
     };
 }
+
 onload = function() {
     clickBiuBiuBiu() // 点击爱心特效
-    snow.down() //  雪花特效
+    this.$snow.down() //  雪花特效
 };
 
 </script>
