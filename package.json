@@ -14,7 +14,9 @@
     "cors": "^2.8.5",
     "element-ui": "^2.15.6",
     "express": "^4.17.1",
+    "mavon-editor": "^2.10.4",
     "mongoose": "^6.0.3",
+    "showdown": "^1.9.1",
     "vue": "^2.6.11",
     "vue-router": "^3.5.2"
   },
@@ -27,6 +29,9 @@
     "babel-plugin-component": "^1.1.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^8.x",
+    "scss-loader": "^0.0.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

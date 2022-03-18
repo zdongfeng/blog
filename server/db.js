@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2021-09-01 09:52:47
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2021-09-01 10:13:46
+ * @LastEditTime: 2021-09-06 14:38:49
  */
 // Schema、Model、Entity或者Documents的关系请牢记，Schema生成Model，Model创造Entity，Model和Entity都可对数据库操作造成影响，但Model比Entity更具操作性。
 const mongoose = require('mongoose');
@@ -27,12 +27,12 @@ const userSchema = new mongoose.Schema({
 })
 //文章
 const articleSchema = new mongoose.Schema({
-    title: String,
-    date: String,
-    category: Array,
-    gist: String,
-    content: String,
-    comments: Array
+    title: String, // 标题
+    date: String, // 日期
+    booksName: String, // 书名
+    gist: String, // 主题
+    content: String, // 内容
+    comments: Array // 评论
 })
 
 /************** 定义模型Model **************/

@@ -3,12 +3,13 @@
  * @Author: zhaodongfeng
  * @Date: 2021-08-27 22:08:19
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2021-09-01 10:45:08
+ * @LastEditTime: 2022-03-17 11:36:06
  */
 'use strict'
 const path = require('path');
 module.exports = {
-    outputDir: 'docs',
+    // outputDir: 'docs',
+    publicPath: '/blog',
     configureWebpack: {
         devServer: {
             open: true,

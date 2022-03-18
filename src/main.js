@@ -3,7 +3,7 @@
  * @Author: zhaodongfeng
  * @Date: 2021-08-27 21:34:14
  * @LastEditors: zhaodongfeng
- * @LastEditTime: 2021-09-03 11:07:33
+ * @LastEditTime: 2022-02-24 11:55:07
  */
 import Vue from 'vue'
 import router from './router'
@@ -15,7 +15,11 @@ import App from './App.vue'
 
 Vue.prototype.$axios = axios
 Vue.config.productionTip = false
-
+import mavonEditor from 'mavon-editor'
+import 'mavon-editor/dist/css/index.css'
+// import './utils/showdown-table.min.js'
+// import './utils/showndown'
+Vue.use(mavonEditor)
 
 Vue.use(Element, {
   size: 'small',
